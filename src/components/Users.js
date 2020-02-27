@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 // add any needed imports here
 class Users extends Component {
 
+
   render() {
     return (
       <div>
@@ -17,6 +18,11 @@ class Users extends Component {
 }
 
 //add mapStateToProps here
+mapStateToProps = (state) =>{
+  return(
+    users: this.state.users
+  )
+}
 
 // connect this component to Redux
 export default Users
