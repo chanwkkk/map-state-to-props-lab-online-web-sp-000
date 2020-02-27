@@ -20,7 +20,7 @@ class Users extends Component {
 //add mapStateToProps here
 mapStateToProps = (state) =>{
   return(
-    users: this.state.users
+    users: state.users
   )
 }
 
